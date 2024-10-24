@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Potencias {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		int n,m,r;
+		
+		System.out.println("Ingresa un numero ");
+		n= entrada.nextInt();
+		
+		System.out.println("Ingresa el exponente ");
+		m= entrada.nextInt();
+		
+		r=(int) Math.pow(n, m);
+		
+		System.out.println("EL resultado de la potencia es "+r);		
+
+	}
+
+}
