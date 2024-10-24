@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Resistencias {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		double r,r1,r2,r3;
+		
+		System.out.println("ingresa valor para R1");
+		r1=entrada.nextDouble();
+		
+		System.out.println("ingresa valor para R2");
+		r2= entrada.nextDouble();
+		
+		System.out.println("ingresa valor para R3");
+		r3= entrada.nextDouble();
+		
+		r=1/((1/r1)+(1/r2)+(1/r3));
+		
+		System.out.println("El reusltado es "+r);
+
+	}
+
+}
