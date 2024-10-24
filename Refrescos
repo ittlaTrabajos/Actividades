@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class Refrescos {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+
+		int rc,pc,tpc,an,pn,tpn,am,pm,tpm;
+		
+		System.out.println("Ingresa cantidad de productos refresco de cola");
+		rc= entrada.nextInt();
+		
+		System.out.println("Ingresa precio de refresco cola");
+		pc=entrada.nextInt();
+		
+		tpc=rc*pc;
+		
+		System.out.println("Ingresa cantidad de agua natural");
+		an=entrada.nextInt();
+		
+		System.out.println("Ingresa precio de agua natural");
+		pn=entrada.nextInt();
+		
+		tpn=an*pn;
+		
+		System.out.println("Ingresa cantidad de agua mineral");
+		am=entrada.nextInt();
+		
+		System.out.println("Ingresa precio de agua mineral");
+		pm=entrada.nextInt();
+		
+		tpm=am*pm;
+		
+		
+		System.out.println("Reporte");
+		System.out.println("--------------------------------");
+		System.out.println("Producto refresco de coca");
+		System.out.println("Cantidad vendida: "+rc);
+		System.out.println("Precio: "+rc);
+		System.out.println("El total a pagar es: "+tpc);
+		
+		System.out.println("--------------------------------");
+		System.out.println("Producto agua natural");
+		System.out.println("Cantidad vendida: "+rc);
+		System.out.println("Precio: "+rc);
+		System.out.println("El total a pagar es: "+tpc);
+		
+		System.out.println("--------------------------------");
+		System.out.println("Producto agua mineral");
+		System.out.println("Cantidad vendida: "+rc);
+		System.out.println("Precio: "+rc);
+		System.out.println("El total a pagar es: "+tpc);
+		
+
+	}
+
+}
